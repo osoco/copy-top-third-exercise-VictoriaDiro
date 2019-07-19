@@ -1,0 +1,24 @@
+.copy {
+  display: none;
+}
+
+.main__container {
+  position: relative;
+}
+
+.picture__1-container {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+
+.picture__2-container {
+  position: absolute;
+  top: 280px;
+  left: 10px;
+  z-index: 1;
+}
+
+.picture__2 {
+  clip-path: inset(0px 0px 223px 0px);
+}
